@@ -1,7 +1,8 @@
 <?php
+include_once "ISort.php";
 
 
-class Base
+class Base implements ISort
 {
     public function swap(&$arr,$target_index,$replace_index){
         $tmp = $arr[$target_index];
@@ -10,4 +11,8 @@ class Base
 
     }
 
+    public function sort(&$arr)
+    {
+        // TODO: Implement sort() method.
+    }
 }
