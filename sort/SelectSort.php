@@ -14,6 +14,8 @@ class SelectSort extends Base
     /**
      * 获取最小值的下标
      * @param $arr
+     * @param $start_index
+     * @param $end_index
      * @return int
      */
     public function minIndex($arr,$start_index,$end_index){
